@@ -4,7 +4,8 @@
   "description": "Service Worker token authentication proof of concept",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/lm902/sw-auth-poc/issues"
   },
-  "homepage": "https://github.com/lm902/sw-auth-poc#readme"
+  "homepage": "https://github.com/lm902/sw-auth-poc#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-send": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa__router": "^8.0.11"
+  }
 }
